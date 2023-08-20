@@ -1,0 +1,148 @@
+ASxxxx Linker V03.00/V05.40 + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           msxromapp
+     00000000  l__CABS                         
+     00000000  l__DABS                         
+     00000000  l__HEADER                       
+     00000000  l__HEAP                         
+     00000000  l__INITIALIZED                  
+     00000000  l__INITIALIZER                  
+     00000000  s__CABS                         
+     00000000  s__DABS                         
+     00000000  s__HEADER                       
+     00000000  s__HEADER0                      
+     00000001  l__GSFINAL                      
+     00000002  l__DATA                         
+     00000010  l__GSINIT                       
+     0000001C  l__HEADER0                      
+     00000020  l__ROMDATA                      
+     0000007C  l__HOME                         
+     0000016D  l__CODE                         
+     0000801C  s__CODE                         
+     00008189  s__HOME                         
+     00008205  s__GSINIT                       
+     00008215  s__GSFINAL                      
+     00008216  s__INITIALIZER                  
+     00008216  s__ROMDATA                      
+     0000C000  s__DATA                         
+     0000C002  s__HEAP                         
+     0000C002  s__INITIALIZED                  
+ASxxxx Linker V03.00/V05.40 + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               0000801C    0000016D =         365. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000801C  __print                            msxromapp
+     0000803C  _print                             msxromapp
+     0000803F  _main                              msxromapp
+     000080C3  _onCallCMD1                        msxromapp
+     000080F7  _onCallCMD2                        msxromapp
+     0000812B  _onDeviceDEV_getId                 msxromapp
+     0000815B  _onDeviceDEV_IO                    msxromapp
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER0                            00000000    0000001C =          28. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008010  init                               
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HOME                               00008189    0000007C =         124. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008189  _call_expansion                    
+     000081BA  _device_expansion                  
+     000081F9  compareString                      
+ASxxxx Linker V03.00/V05.40 + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_GSINIT                             00008205    00000010 =          16. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008205  gsinit                             
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_GSFINAL                            00008215    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_ROMDATA                            00008216    00000020 =          32. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008216  callStatementIndex                 
+     0000821C  callStatement_CMD1                 
+     00008223  callStatement_CMD2                 
+     0000822A  deviceIndex                        
+     0000822E  device_DEV                         
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_DATA                               0000C000    00000002 =           2. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000C000  _heap_top                          
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEAP                               0000C002    00000000 =           0. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000C002  _HEAP_start                        
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 10.
+
+Files Linked                              [ module(s) ]
+
+Release\objs\msxromcrt0.rel               [  ]
+Release\objs\msxromapp.rel                [ msxromapp ]
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 11.
+
+User Base Address Definitions
+
+_CODE = 0x801c
+_DATA = 0xc000
+
+
